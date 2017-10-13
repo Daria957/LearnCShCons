@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearnCShCons
+namespace LearnCShCons.learnc.interfaceL
 {
-    public class Student
+    interface Idestroy
     {
-        public int _age;
+        string destruction();
+
     }
 }
